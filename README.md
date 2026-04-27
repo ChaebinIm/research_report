@@ -63,6 +63,7 @@
 | [반도체 소부장 배경지식 (Primer)](./반도체/반도체소부장_산업배경지식.md) | 소부장 리포트 | 8대 공정·Litho/EUV·ALD·Etch·CMP·CoWoS·TC본더·글로벌 빅5·K-소부장 | 2026-04-24 |
 | [전력반도체 산업 배경지식 (Primer)](./반도체/전력반도체_산업배경지식.md) | 전력반도체 리포트 | MOSFET/IGBT/HEMT·Si vs SiC vs GaN·Inverter·EV BOM·800V HVDC·용어사전 | 2026-04-27 |
 | [전력반도체 글로벌 종목 분석](./반도체/전력반도체_글로벌종목분석.md) | Infineon, STM, onsemi, ROHM, Wolfspeed, TI, NXP, ADI, MPWR, POWI, Innoscience 등 17종목 | Top 3: TXN·MPWR·IFX. NVIDIA 800V HVDC 수혜 vs Wolfspeed Ch.11 졸업 dilution | 2026-04-27 |
+| [서진시스템](./반도체/서진시스템_분석리포트.md) | KOSPI: 178320 | 반도체 장비·통신·2차전지 정밀가공 부품. 한미반도체 HBM 본더 케이스 핵심 협력 | 2026-04-27 |
 
 ### 🛡️ 방산
 | 문서 | 커버 기업/주제 | 한 줄 정의 | 갱신일 |
