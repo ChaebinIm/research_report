@@ -58,6 +58,8 @@
 | [반도체 소부장 밸류체인 분석](./반도체/반도체소부장_밸류체인분석.md) | ASML·AMAT·LAM·TEL·KLA + 한미반도체·이오테크닉스·원익IPS·파크시스템스·동진쎄미켐 | $156B (2027) 시장, K-소부장 HBM·AI Top Pick 5 | 2026-04-24 |
 | [반도체 산업 배경지식 (Primer)](./반도체/반도체_산업배경지식.md) | 반도체·메모리 리포트 전반 | 메모리/비메모리·DRAM/NAND/HBM·파운드리·EUV·CoWoS·사이클 | 2026-04-24 |
 | [반도체 소부장 배경지식 (Primer)](./반도체/반도체소부장_산업배경지식.md) | 소부장 리포트 | 8대 공정·Litho/EUV·ALD·Etch·CMP·CoWoS·TC본더·글로벌 빅5·K-소부장 | 2026-04-24 |
+| [전력반도체 산업 배경지식 (Primer)](./반도체/전력반도체_산업배경지식.md) | 전력반도체 리포트 | MOSFET/IGBT/HEMT·Si vs SiC vs GaN·Inverter·EV BOM·800V HVDC·용어사전 | 2026-04-27 |
+| [전력반도체 글로벌 종목 분석](./반도체/전력반도체_글로벌종목분석.md) | Infineon, STM, onsemi, ROHM, Wolfspeed, TI, NXP, ADI, MPWR, POWI, Innoscience 등 17종목 | Top 3: TXN·MPWR·IFX. NVIDIA 800V HVDC 수혜 vs Wolfspeed Ch.11 졸업 dilution | 2026-04-27 |
 
 ### 🛡️ 방산
 | 문서 | 커버 기업/주제 | 한 줄 정의 | 갱신일 |
