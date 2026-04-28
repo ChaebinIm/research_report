@@ -91,6 +91,8 @@
 |---|---|---|---|
 | [AI 데이터센터 풀 스택 가치사슬 맵](./AI인프라/AI인프라_풀스택맵.md) | 14 Layer (하이퍼스케일러 → GPU → HBM → CoWoS → 변압기 → 냉각 → 전력 → 케이블 → DC 부동산) | 1GW AI DC 1기 = 무엇이 필요한가, 한국 강점 7개 Layer | 2026-04-24 |
 | [AI Capex 피크 시그널](./AI인프라/AI_Capex_피크시그널.md) | MSFT/GOOG/META/AMZN/Oracle/xAI/OpenAI Capex 사이클 | 2026 $700B+, 2027 Q1 분기점, Soft Landing 50%/Acceleration 30%/Burst 20% 시나리오 | 2026-04-27 |
+| [온디바이스 AI 산업 배경지식 (Primer)](./AI인프라/온디바이스AI_산업배경지식.md) | 온디바이스 AI 리포트 | NPU·SLM·양자화·LPDDR·TOPS·5대 적용분야(폰·PC·차·로봇·IoT)·용어사전 | 2026-04-28 |
+| [온디바이스 AI 산업 분석](./AI인프라/온디바이스AI_산업분석.md) | Qualcomm·Apple·MediaTek·삼성·Intel·AMD·Google·NVIDIA + MS/Meta/Mistral SLM + SK하이닉스·삼성·Micron LPDDR | 4축(칩·모델·메모리·디바이스) 강점·약점, 17사 멀티플 매트릭스, 클라우드 비용 헷지 테마 | 2026-04-28 |
 
 ### 🔋 2차전지
 | 문서 | 커버 기업/주제 | 한 줄 정의 | 갱신일 |
