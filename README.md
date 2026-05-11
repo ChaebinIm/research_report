@@ -77,6 +77,13 @@
 | [반도체 소부장 배경지식 (Primer)](./반도체/반도체소부장_산업배경지식.md) | 소부장 리포트 | 8대 공정·Litho/EUV·ALD·Etch·CMP·CoWoS·TC본더·글로벌 빅5·K-소부장 | 2026-04-24 |
 | [전력반도체 산업 배경지식 (Primer)](./반도체/전력반도체_산업배경지식.md) | 전력반도체 리포트 | MOSFET/IGBT/HEMT·Si vs SiC vs GaN·Inverter·EV BOM·800V HVDC·용어사전 | 2026-04-27 |
 | [전력반도체 글로벌 종목 분석](./반도체/전력반도체_글로벌종목분석.md) | Infineon, STM, onsemi, ROHM, Wolfspeed, TI, NXP, ADI, MPWR, POWI, Innoscience 등 17종목 | Top 3: TXN·MPWR·IFX. NVIDIA 800V HVDC 수혜 vs Wolfspeed Ch.11 졸업 dilution | 2026-04-27 |
+| [차세대 메모리 종합 분석](./반도체/차세대메모리_종합분석.md) | MRAM·ReRAM·PCM·FeRAM·NRAM + CXL·PIM·HBF·3D 적층 통합 + 8종 비교 매트릭스 + 글로벌·한국 종목 | 2030년 시장 $30-50B(메모리 15-20%) + 한국 양강 거의 모든 영역 1순위급 + Top 5 (SK·삼성·Astera·Everspin·Weebit) | 2026-05-11 |
+| [차세대메모리 MRAM 심층](./반도체/차세대메모리_MRAM_심층분석.md) | Everspin★·삼성·TSMC·GlobalFoundries·UMC·Intel·NXP·Infineon·STM·Renesas·AMAT·원익IPS | 자석 N/S 저장. 2030E $35-50B (CAGR 30-35%). STT-MRAM 주류, SOT-MRAM 차세대. Top 3 (Everspin·GFS·삼성) | 2026-05-11 |
+| [차세대메모리 ReRAM 심층](./반도체/차세대메모리_ReRAM_심층분석.md) | Crossbar·Weebit Nano(WBT.AX)★·Adesto·Panasonic·Fujitsu·삼성·SK·TSMC·UMC + 뉴로모픽 IBM·Intel·Mythic | 산화막 안 필라멘트 형성/소멸. 2030E $35B → 2035 $220B. 뉴로모픽+CIM이 킬러앱. Top 3 (Weebit·TSMC·원익IPS) | 2026-05-11 |
+| [차세대메모리 PCM 심층](./반도체/차세대메모리_PCM_심층분석.md) | Intel·Micron·STM★·SK하이닉스·삼성·IBM·HP + Air Liquide·솔브레인·SK머티리얼즈·동진쎄미켐·이엔에프 | 칼코게나이드 결정/비결정 저장. Optane 단종(2022) → 2024-26 부활 시그널. Top 3 (STM·MU·Air Liquide) | 2026-05-11 |
+| [차세대메모리 FeRAM 심층](./반도체/차세대메모리_FeRAM_심층분석.md) | TXN★·Fujitsu·Infineon★·Cypress·Microchip·삼성·SK + 솔브레인·DNF·원익IPS | 강유전체 분극 저장. PZT(전통) vs HfO2(2011 발견·차세대). 1992~ 유일 상용화. Top 3 (Infineon·TXN·삼성) | 2026-05-11 |
+| [차세대메모리 CXL 심층](./반도체/차세대메모리_CXL_심층분석.md) | Astera Labs(ALAB)★·Marvell·Microchip·Montage·Rambus·SK★·삼성·Micron + Intel·AMD·NVIDIA + UALink | 메모리 풀링 혁명. 2024 $0.5B → 2030 $15-20B (30-40배). 2026-27 채택 변곡점. Top 3 (ALAB·SK하이닉스·MRVL) | 2026-05-11 |
+| [차세대메모리 PIM 심층](./반도체/차세대메모리_PIM_심층분석.md) | 삼성★(HBM-PIM Aquabolt-XL)·SK하이닉스★(AiM)·Micron·UPMEM·Mythic·Syntiant·GSI(GSIT)·Untether·SambaNova·Cerebras | 메모리 안 직접 계산 폰노이만 극복. 2024 $0.3B → 2030 $20B+ (67배). 한국 글로벌 1·2위. Top 3 (삼성·SK·GSIT) | 2026-05-11 |
 | [삼성전자 심층 분석](./반도체/삼성전자_심층분석리포트.md) | KOSPI: 005930 | 4사업부 SOTP 1,520조 vs 시총 1,270조(-16~20% DC) + HBM4 동시출발(2026.2 P4) + 1Q26 OP 57.2조 사상최대 + Tesla AI5/AI6 $16.5B 파운드리 흑전 + 14.6조 자사주 소각 | 2026-05-06 |
 | [SK하이닉스 심층 분석](./반도체/SK하이닉스_심층분석리포트.md) | KOSPI: 000660 | 시총 1,015조 + 1Q26 OPM 72% + HBM 점유율 57% + P/B 2.8x·ROE 35-40% 정점 시그널 + 본업+HBM SOTP 1,030조 + 우시 라이선스 갱신(2026.12) 시나리오 정량화 | 2026-05-06 |
 | [SK스퀘어 지주 단독 심층 분석](./반도체/SK스퀘어_지주_심층분석.md) | KOSPI: 402340 | "SK하이닉스 1.3배 레버리지 ETF" — 보유 NAV 215조 vs 시총 110조 디스카운트 49% (1년 전 86%→정상화) + 11번가 SK플래닛 이관 완료(2025.10) + 사피온-리벨리온 합병 + 한명진 K-밸류업. Bull 175만/Base 116만/Bear 55만 | 2026-05-06 |
@@ -125,6 +132,9 @@
 | [온디바이스 AI 산업 배경지식 (Primer)](./AI인프라/온디바이스AI_산업배경지식.md) | 온디바이스 AI 리포트 | NPU·SLM·양자화·LPDDR·TOPS·5대 적용분야(폰·PC·차·로봇·IoT)·용어사전 | 2026-04-28 |
 | [온디바이스 AI 산업 분석](./AI인프라/온디바이스AI_산업분석.md) | Qualcomm·Apple·MediaTek·삼성·Intel·AMD·Google·NVIDIA + MS/Meta/Mistral SLM + SK하이닉스·삼성·Micron LPDDR | 4축(칩·모델·메모리·디바이스) 강점·약점, 17사 멀티플 매트릭스, 클라우드 비용 헷지 테마 | 2026-04-28 |
 | [광통신 산업 분석 (AI 옵티컬 + CPO)](./AI인프라/광통신_산업분석.md) | Coherent★·Lumentum·Marvell★·Broadcom·Ciena·Innolight·Eoptolink + 오이솔루션★·이수페타시스★·라이트론·옵티시스·KMW | 2024 $9B → 2030E $30-40B + NVIDIA $4B Coherent/Lumentum 투자 + Tomahawk 6 Davisson 102.4T/Spectrum-X 409.6T CPO 전환 + 한국 알파 2종 | 2026-05-06 |
+| [광통신 산업 배경지식 (Primer)](./AI인프라/광통신_산업배경지식.md) | 광통신 입문 | 광섬유 SMF/MMF·G.652/655/657·HCF + 광망 4단(Backbone-Metro-Access-DC) + DWDM·EDFA·OTN·PON(GPON→25G/50G)·Coherent ZR + 용어사전 80+ | 2026-05-11 |
+| [광섬유·광케이블 산업 종합 분석](./AI인프라/광통신_광섬유광케이블_산업분석.md) | Corning(GLW)★·Prysmian·YOFC·Hengtong·ZTT·Sumitomo·Fujikura·Furukawa·OFS + 대한광통신★·LS전선·LS전선아시아·코위파·옵티시스·라이트론 | 미국 BEAD $42.5B 본격(2026.04 NTIA 50/56) + 광케이블 가격 +40% + Meta-Corning $60억 + 中 MOFCOM 미국산 78% 반덤핑. 한국 양 진영 동시수출 반사수혜 | 2026-05-11 |
+| [대한광통신(010170) 단독 심층](./AI인프라/대한광통신_심층분석리포트.md) | KOSPI: 010170 | 한국 유일 광섬유 모재-섬유-케이블 일관 수직계열. 2026 4대 트리거(BEAD·빅테크 AI DC 864심·인캡아메리카·천광 레이저). PBR 36배(역사 고점), Bear $10K/Base $40K/Bull $90K | 2026-05-11 |
 
 ### 🔋 2차전지
 | 문서 | 커버 기업/주제 | 한 줄 정의 | 갱신일 |
