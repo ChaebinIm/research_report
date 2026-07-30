@@ -119,6 +119,70 @@ def accel_label(net_1w, net_1m):
         return "▼ 감속(속도↓)" if net_1w >= 0 else "▼ 순매도 가속"
     return "→ 유지"
 
+# ── 눈에 띄는 변화 자동 감지 (방향전환·급가속) ──────────────────
+def weekly_paces(n1, n2, n1m, n3):
+    """각 기간을 '주당 순매수 속도'로 환산 (3달=13주, 1달≈4.3주, 1주=1주)."""
+    return {"3달": n3 / 13.0, "1달": n1m / 4.3, "1주": float(n1)}
+
+def _detect(pairs, min_eok):
+    """pairs: list of (label, {window:net}). 방향전환/급가속 감지."""
+    items = []
+    for label, nets in pairs:
+        n1, n2, n1m, n3 = nets.get("1주", 0), nets.get("2주", 0), nets.get("1달", 0), nets.get("3달", 0)
+        prior = (n1m - n1) / 3.0
+        rev = (n1 > 0 > n1m) or (n1 < 0 < n1m)
+        surge = (n1 * prior > 0) and abs(n1) > max(2 * abs(prior), min_eok * 1e8)
+        if (rev and min(abs(eok(n1)), abs(eok(n1m))) > min_eok) or surge:
+            kind = "🔄 방향전환" if rev else "⚡ 급가속"
+            items.append((abs(eok(n1) - eok(prior)), label, kind, weekly_paces(n1, n2, n1m, n3)))
+    items.sort(key=lambda x: -x[0])
+    return items
+
+def detect_notable_stocks(df, investors=("외국인", "기관합계"), min_eok=100, topn=6):
+    res = []
+    for inv in investors:
+        sub = df[df.investor == inv]
+        pairs = []
+        for (tk, nm), g in sub.groupby(["티커", "종목명"]):
+            nets = {w: float(g[g.window == w]["순매수거래대금"].sum()) for w in WINDOWS}
+            pairs.append((f"{nm} ({inv})", nets))
+        res += _detect(pairs, min_eok)
+    res.sort(key=lambda x: -x[0])
+    return res[:topn]
+
+def detect_notable_sectors(df, investors=("외국인", "기관합계"), min_eok=200, topn=5):
+    res = []
+    for inv in investors:
+        sub = df[df.investor == inv].copy()
+        if sub.empty:
+            continue
+        sub["섹터"] = [subsector(t, n) for t, n in zip(sub["티커"], sub["종목명"])]
+        pairs = []
+        for sec, g in sub.groupby("섹터"):
+            if sec == "기타":
+                continue
+            nets = {w: float(g[g.window == w]["순매수거래대금"].sum()) for w in WINDOWS}
+            pairs.append((f"{sec} ({inv})", nets))
+        res += _detect(pairs, min_eok)
+    res.sort(key=lambda x: -x[0])
+    return res[:topn]
+
+def render_notable(items, empty_msg):
+    if not items:
+        return [f"*{empty_msg}*"]
+    allv = [v for *_, paces in items for v in paces.values()]
+    maxabs = max((abs(eok(v)) for v in allv), default=1) or 1
+    unit = maxabs / 12
+    lines = ["주간 순매수 '속도' 궤적 (억원/주, 위→아래 = 3달→1달→1주)  [█ 순매수 · ▒ 순매도]", ""]
+    for score, label, kind, paces in items:
+        lines.append(f"- {kind} · **{label}**")
+        lines.append("```")
+        for hz in ["3달", "1달", "1주"]:
+            v = eok(paces[hz])
+            lines.append(f"  {hz:<3} {v:>8,.0f}  {bar(v, unit)}")
+        lines.append("```")
+    return lines
+
 # ─────────────────────────────────────────────────────────────
 def build(df):
     base_date = df["기준일"].iloc[0] if len(df) else "?"
@@ -188,6 +252,13 @@ def build(df):
         sstr = ", ".join(f"{k} {eok(v):,.0f}" for k, v in sell.items())
         out.append(f"- **{inv}** — 순매수 상위: {bstr} / 순매도 상위: {sstr}")
     out.append("\n예: 반도체를 **메모리 vs 비메모리 vs 소부장 vs 후공정**으로 분리해 집계 → 같은 '반도체'라도 자금이 어느 하위섹터로 갔는지 구분됩니다.\n")
+
+    # 눈에 띄는 변화 (자동 감지)
+    out.append("\n## 3. 🚨 눈에 띄는 변화 (자동 감지: 방향전환·급가속)\n")
+    out.append("**종목 단위**")
+    out.extend(render_notable(detect_notable_stocks(df), "임계값(±100억)을 넘는 종목 급변 없음."))
+    out.append("\n**세부섹터 단위**")
+    out.extend(render_notable(detect_notable_sectors(df), "임계값(±200억)을 넘는 섹터 급변 없음."))
 
     # 검증 노트
     out.append("\n## 🔍 검증 노트\n")
