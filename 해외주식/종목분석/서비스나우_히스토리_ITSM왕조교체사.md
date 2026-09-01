@@ -36,7 +36,7 @@
 
 ## 3. 3막 (2012~2019) — 왕조 교체의 완성
 
-- **2012.6.29 NYSE 상장**: 주당 18달러, 약 2.1억 달러 조달, 기업가치 약 20억 달러 — 당시 "적자 SaaS에 20억?"이라는 회의론이 따라붙었다(지금 시총 1,496억 달러 — 74배)
+- **2012.6.29 NYSE 상장**: 주당 18달러, 약 2.1억 달러 조달, 기업가치 약 20억 달러 — 당시 "적자 SaaS에 20억 달러?"이라는 회의론이 따라붙었다(지금 시총 1,496억 달러 — 74배)
 - 2010년대 중반 가트너 매직 쿼드런트에서 리더 지위를 굳히며 **BMC·HP·CA를 차례로 추월** — 늙은 왕조는 온프레미스 매출을 지키느라 클라우드 전환을 미적댔고(혁신기업의 딜레마 교과서 사례), 신규 계약이 통째로 서비스나우로 넘어갔다
 - 2017~2019 도나호 CEO를 거쳐 **2019년 빌 맥더못**(SAP 전 CEO — 영업의 제왕)이 취임, "IT를 넘어 전사 워크플로"로 확전 — HR·고객서비스·보안으로 모듈을 늘려 오늘의 플랫폼 제국(연매출 130억 달러대, 갱신율 98~99%)을 완성
 
@@ -58,7 +58,7 @@
 
 - [위키피디아 — ServiceNow: 2004 글라이드소프트 설립·2006 개명·2012 IPO·CEO 연혁](https://en.wikipedia.org/wiki/ServiceNow) · [— Fred Luddy: 페레그린 CTO·파산·3,500만 달러 손실](https://en.wikipedia.org/wiki/Fred_Luddy)
 - [세쿼이아캐피털 팟캐스트 'Crucible Moments' — 러디·슬루트먼이 직접 말하는 창업기](https://sequoiacap.com/podcast/crucible-moments-servicenow) · [Stacksync — "해고된 CTO와 유죄 판결받은 CEO: 서비스나우 기원"](https://www.stacksync.com/blog/the-fired-cto-and-the-convicted-ceo-the-origin-story-of-servicenow)
-- [SEC — 2012 S-1(상장신고서) 원문](https://www.sec.gov/Archives/edgar/data/0001373715/000119312512143517/d301887ds1.htm) · [Taskade — 연대기 정리(법인 설립 2004.6.24·IPO 18달러·2.1억 조달)](https://www.taskade.com/blog/history-of-servicenow)
+- [SEC — 2012 S-1(상장신고서) 원문](https://www.sec.gov/Archives/edgar/data/0001373715/000119312512143517/d301887ds1.htm) · [Taskade — 연대기 정리(법인 설립 2004.6.24·IPO 18달러·2.1억 달러 조달)](https://www.taskade.com/blog/history-of-servicenow)
 - 왕조사(레메디 1990·페레그린의 레메디 인수 2001·BMC 인수·HP의 페레그린 인수 2005): 업계 통용 역사 — 세부는 각사 위키·보도 교차
 
 **저장소 연계**: `서비스나우_심층분석리포트`(① — 현재의 좌표) · `서비스나우_심화분석_v2`(② — 사업·재무·경쟁) · `시장브리핑/테마부활의역사`(왕조 교체·촉매 프레임의 국내판) · `반도체/종목분석/독점기업_경쟁자등장`(해자 침식의 일반론)
