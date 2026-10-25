@@ -214,3 +214,11 @@ EV/EBITDA는 **부채·감가상각·세율이 다른 회사들을 공정하게 
 - [FAST Graphs — PEG Ratio(피터 린치의 성장 보정 개념)](https://www.fastgraphs.com/blog/the-peg-ratio-peter-lynchs-secret-to-29-annual-returns-and-how-fast-graphs-makes-it-easy-to-use)
 - PER·PBR·EV/EBITDA·정당PBR(ROE-g)/(COE-g)·안전마진·가치함정은 밸류에이션의 표준 프레임(일반 이론). 프로젝트 내부 아카이브(핵심 근거): C08(내러티브·리레이팅), C11(좋은 사업 vs 좋은 주식), C13(조선 PBR·수주산업), C21(경기순환·저PER 함정), C25(은행 NIM·PBR·정당PBR·ROE), C32(감가상각·CAPEX·EBITDA·FCF), C33(자본구조·희석·주당), C17(지주 NAV 디스카운트), C29(코리아 디스카운트·거버넌스)
 - ※ 국내 종목(코드)은 **업종별 밸류에이션 자(尺)의 학습용 예시이며 매매 추천이 아님.** 구체적 현재 주가·PER·PBR·EV/EBITDA·ROE·목표주가는 검증 규칙에 따라 단정하지 않으며, 실제 판단 시 최신 공시·실적으로 확인해야 함. 배수·정당가치 산식은 시점·가정에 따라 크게 달라지므로 절대적 기준이 아님.
+
+<!-- study-nav:start (scripts/build_study_index.py 자동 생성) -->
+
+---
+
+⬅️ 이전 [C35 · 2차전지(배터리) 밸류체인의 경제학: '셀·소재·장비'와 '캐즘'이라는…](./2026-08-30_C35_산업_2차전지밸류체인의경제학_셀소재장비와캐즘의터널.md) &nbsp;|&nbsp; 📚 [상시공부 목록](./README.md) &nbsp;|&nbsp; [C37 · 종목 ⑧ 특수상황(Special Situations) 투자: '값이 강…](./2026-09-01_C37_종목_특수상황투자_스핀오프분할합병차익행동주의.md) 다음 ➡️
+
+<!-- study-nav:end -->
